@@ -7,17 +7,9 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
+
+
+ {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -25,8 +17,7 @@ section, summary, time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+ {
 	display: block;}
 
 body {
@@ -75,7 +66,7 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: device-width;
+		/*width: device-width;*/
 	}
 
 	body {
@@ -2591,7 +2582,7 @@ input, select, textarea {
 	.image {
 		border: 0;
 		display: inline-block;
-		position: relative;
+		position:  center;
 	}
 
 		.image img {
@@ -2637,7 +2628,7 @@ input, select, textarea {
 			margin-right: auto;
 			width: 50%;
 			height: 500px;
-			
+
 		}
 
 			.image.main:first-child {
@@ -2916,7 +2907,7 @@ input, select, textarea {
 		header > .date {
 			display: block;
 			font-size: 0.8rem;
-			height: 1;
+			height: 0;
 			margin: 0 0 1rem 0;
 			position: relative;
 		}
@@ -2949,6 +2940,7 @@ input, select, textarea {
 		header.major {
 			margin: 0 0 4rem 0;
 			text-align: center;
+
 		}
 
 			header.major > :last-child {
@@ -3301,7 +3293,7 @@ input, select, textarea {
 		-ms-flex-direction: column;
 		flex-direction: column;
 		-moz-justify-content: -moz-flex-end;
-		-webkit-justify-content: -webkit-flex-end;
+		/*-webkit-justify-content: -webkit-flex-end;*/
 		-ms-justify-content: -ms-flex-end;
 		justify-content: flex-end;
 		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
@@ -3309,6 +3301,7 @@ input, select, textarea {
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
 		position: relative;
+		top: -160px;
 		cursor: default;
 		text-align: center;
 		z-index: 1;
@@ -3456,6 +3449,7 @@ input, select, textarea {
 			#intro {
 				padding: 4rem 4rem 2rem 4rem ;
 				min-height: 90vh;
+				top: -160px;
 			}
 
 				#intro p br {
@@ -3473,6 +3467,7 @@ input, select, textarea {
 			#intro {
 				padding: 3rem 2rem 1rem 2rem ;
 				min-height: 80vh;
+				top: -160px;
 			}
 
 				#intro h1 {
